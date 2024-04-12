@@ -17,8 +17,8 @@ public class JdbcAccountRepository implements AccountRepository {
 
 	private static String diver = "oracle.jdbc.driver.OracleDriver";
 	private static String url = "jdbc:oracle:thin:@localhost:1521:xe";
-	private static String userid = "hr";
-	private static String password = "hr";
+	private static String userid = "본인SQLDeveloper사용자이름입력";
+	private static String password = "본인SQLDeveloper비밀번호입력";
 
 	private Connection con;
 

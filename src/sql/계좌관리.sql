@@ -58,6 +58,15 @@ INSERT INTO account (
     type_id) 
 VALUES ( account_num_seq.NEXTVAL, '±è´ëÃâ', 1234, 10000, 100000000, 1);
 
+INSERT INTO account (
+    account_num,
+    name,
+    password,
+    rest_money,
+    borrow_money,
+    type_id) 
+VALUES ( account_num_seq.NEXTVAL, 'È«±æµ¿', 1234, 1000000, 0, 0);
+
 commit;
 
 select * from account;
